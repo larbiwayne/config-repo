@@ -2,6 +2,8 @@ server:
   port: 8082
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/orderdb
-    username: root
-    password: password
+    url: jdbc:postgresql://localhost:5432/demodb2
+    username: postgres
+    password: realmadrid1
+
+
