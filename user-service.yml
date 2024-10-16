@@ -1,7 +1,13 @@
 server:
-  port: 8081
+  port: 8084
+
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/userdb
-    username: root
-    password: password
+    url: jdbc:postgresql://localhost:5432/demodb
+    username: postgres
+    password: realmadrid1
+
+security:
+  jwt:
+    secret-key: QWPgiUlylS2s879VLIRcieKD5tC2efnnBJhyEZCb4mw=
+    expiration-time: 300000
